@@ -13,10 +13,10 @@
         <NavegacionItem titulo="Tienda"/>
         <NavegacionItem titulo="Contacto"/>
         
-        <NavegacionItem1 v-bind:navegacionData="{ titulo:'Inicio', url:'http://ejemplovuejs.com'}"/>
-        <NavegacionItem1 v-bind:navegacionData="{ titulo:'Acerca', url:'http://ejemplovuejs.com'}"/>
-        <NavegacionItem1 v-bind:navegacionData="{ titulo:'Tienda', url:'http://ejemplovuejs.com'}"/>
-        <NavegacionItem1 v-bind:navegacionData="{ titulo:'Contacto', url:'http://ejemplovuejs.com'}"/>
+        <NavegacionItem1 v-bind:navegacionData="{ titulo:'Inicio', url:'/Inicio'}"/>
+        <NavegacionItem1 v-bind:navegacionData="{ titulo:'Acerca', url:'/Acerca'}"/>
+        <NavegacionItem1 v-bind:navegacionData="{ titulo:'Tienda', url:'/Tienda'}"/>
+        <NavegacionItem1 v-bind:navegacionData="{ titulo:'Contacto', url:'/Contacto'}"/>
 
     </ul>
 </div>
