@@ -8,11 +8,11 @@
 <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
         
-        <NavegacionItem/>
-        <NavegacionItem/>
-        <NavegacionItem/>
-        <NavegacionItem/>
-        
+        <NavegacionItem titulo="Inicio"/>
+        <NavegacionItem titulo="Acerca"/>
+        <NavegacionItem titulo="Tienda"/>
+        <NavegacionItem titulo="Contacto"/>
+
     </ul>
 </div>
 </div>
