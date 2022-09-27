@@ -7,16 +7,12 @@
 </button>
 <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
-        <li class="nav-item">
-            <a class="nav-link" v-bind:class="{active:mostrarActivo}" aria-current="page" href="#">Home</a>
-        </li>
+        
         <NavegacionItem/>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
+        <NavegacionItem/>
+        <NavegacionItem/>
+        <NavegacionItem/>
+        
     </ul>
 </div>
 </div>
@@ -33,7 +29,7 @@ export default {
     },
     data (){ 
         return {
-           mostrarActivo: true
+          
         }
     }
 }
