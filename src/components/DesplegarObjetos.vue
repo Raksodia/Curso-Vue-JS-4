@@ -15,7 +15,7 @@ export default {
     data (){
         return {
             colores : [{nombre:"rojo", nombreIngles:"red"},
-            {nombre:"verde", nombreIngles:"green"},
+            {nombre:"verde", nombreIngles:"green"}, 
             {nombre:"amarillo", nombreIngles:"yellow"},
             {nombre:"azul", nombreIngles:"blue"}
             ]
