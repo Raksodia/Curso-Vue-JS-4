@@ -1,4 +1,4 @@
-    <template>
+<template>
     <li class="nav-item">
         <a class="nav-link" v-bind:style="{ backgroundColor: colorRandom}" v-bind:class="{active:mostrarActivo}" aria-current="page" href="#">{{titulo}}</a>
     </li>
