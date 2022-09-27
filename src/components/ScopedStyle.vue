@@ -15,7 +15,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .texto {
     color:blue;
     font-family: 'Courier New', Courier, monospace;
