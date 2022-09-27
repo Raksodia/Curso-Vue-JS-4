@@ -1,6 +1,6 @@
 <template>
     <li class="nav-item">
-        <a class="nav-link" v-bind:style="{ backgroundColor: colorRandom}" v-bind:class="{active:mostrarActivo}" aria-current="page" href="#">{{navegacionData.titulo}}</a>
+        <a class="nav-link" v-bind:style="{ backgroundColor: colorRandom}" v-bind:class="{active:mostrarActivo}" aria-current="page" v-bind:href="navegacionData.url">{{navegacionData.titulo}}</a>
     </li>
 </template>
 
