@@ -9,6 +9,7 @@
         <DesplegarArreglo/>
         <DesplegarObjetos/>
         <ComponenteCondicional/> 
+        <ScopedStyle/> 
       </div>
   </div>
 </template>
@@ -21,6 +22,7 @@ import DesplegarObjetos from './components/DesplegarObjetos.vue'
 import ComponenteCondicional from './components/ComponenteCondicional.vue'
 import NavegacionPrincipal from './components/NavegacionPrincipal.vue'
 import CssDinamicas from './components/CssDinamicas.vue'
+import ScopedStyle from './components/ScopedStyle.vue'
 
 
 export default {
@@ -31,7 +33,8 @@ export default {
     DesplegarArreglo,
     DesplegarObjetos,
     ComponenteCondicional,
-    CssDinamicas
+    CssDinamicas,
+    ScopedStyle
   } 
 }
 </script>
