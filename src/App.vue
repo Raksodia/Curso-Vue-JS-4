@@ -10,6 +10,7 @@
         <DesplegarObjetos/>
         <ComponenteCondicional/> 
         <ScopedStyle/> 
+        <ContenidoSitio/> 
       </div>
   </div>
 </template>
@@ -23,7 +24,7 @@ import ComponenteCondicional from './components/ComponenteCondicional.vue'
 import NavegacionPrincipal from './components/NavegacionPrincipal.vue'
 import CssDinamicas from './components/CssDinamicas.vue'
 import ScopedStyle from './components/ScopedStyle.vue'
-
+import ContenidoSitio from './components/ContenidoSitio.vue'
 
 export default {
   name: 'App',
@@ -34,7 +35,8 @@ export default {
     DesplegarObjetos,
     ComponenteCondicional,
     CssDinamicas,
-    ScopedStyle
+    ScopedStyle,
+    ContenidoSitio
   } 
 }
 </script>
