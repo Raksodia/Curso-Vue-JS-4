@@ -7,7 +7,7 @@
         <MiComponente/>
         <DesplegarArreglo/>
         <DesplegarObjetos/>
-        <ComponenteCondicional/>
+        <ComponenteCondicional/> 
       </div>
   </div>
 </template>
