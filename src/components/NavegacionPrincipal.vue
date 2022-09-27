@@ -10,9 +10,7 @@
         <li class="nav-item">
             <a class="nav-link" v-bind:class="{active:mostrarActivo}" aria-current="page" href="#">Home</a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-        </li>
+        <NavegacionItem/>
         <li class="nav-item">
             <a class="nav-link" href="#">Pricing</a>
         </li>
@@ -26,9 +24,14 @@
 </template>
 
 <script>
+import NavegacionItem from './NavegacionItem.vue'
+
 export default {
     name: 'NavegacionPrincipal',
-    data (){
+    components: {
+        NavegacionItem
+    },
+    data (){ 
         return {
            mostrarActivo: true
         }
