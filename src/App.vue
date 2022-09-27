@@ -4,6 +4,7 @@
         <div class="row">
           <NavegacionPrincipal/>
         </div>
+        <CssDinamicas/>
         <MiComponente/>
         <DesplegarArreglo/>
         <DesplegarObjetos/>
@@ -19,6 +20,8 @@ import DesplegarArreglo from './components/DesplegarArreglo.vue'
 import DesplegarObjetos from './components/DesplegarObjetos.vue'
 import ComponenteCondicional from './components/ComponenteCondicional.vue'
 import NavegacionPrincipal from './components/NavegacionPrincipal.vue'
+import CssDinamicas from './components/CssDinamicas.vue'
+
 
 export default {
   name: 'App',
@@ -28,7 +31,7 @@ export default {
     DesplegarArreglo,
     DesplegarObjetos,
     ComponenteCondicional,
-   
+    CssDinamicas
   } 
 }
 </script>
