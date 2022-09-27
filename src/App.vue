@@ -6,6 +6,7 @@
 </template>
 
 <script>
+
 import MiComponente from './components/MiComponente.vue'
 import DesplegarArreglo from './components/DesplegarArreglo.vue'
 
