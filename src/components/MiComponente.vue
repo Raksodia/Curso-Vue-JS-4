@@ -1,6 +1,7 @@
 <template>
     <div class="MiComponente"> 
-        <h1>Mi Componente Funciona</h1>
+        <h1>{{libro.titulo}}</h1>
+        <h2>{{libro.autor}}</h2>
     </div>
 </template>
 
@@ -9,7 +10,10 @@ export default {
     name: 'MiComponente',
     data (){
         return {
-
+            libro : {
+                autor: "Autor",
+                titulo: "Titulo"
+            } 
         }
     }
 }
