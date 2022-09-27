@@ -1,4 +1,4 @@
-# curso-vue-js-4
+# Curso-Vue-JS-4
 
 ## Project setup
 ```
