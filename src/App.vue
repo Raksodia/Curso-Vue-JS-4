@@ -2,6 +2,7 @@
   <div id="app">
     <MiComponente/>
     <DesplegarArreglo/>
+    <DesplegarObjetos/>
   </div>
 </template>
 
@@ -9,12 +10,14 @@
 
 import MiComponente from './components/MiComponente.vue'
 import DesplegarArreglo from './components/DesplegarArreglo.vue'
+import DesplegarObjetos from './components/DesplegarObjetos.vue'
 
 export default {
   name: 'App',
   components: {
     MiComponente,
-    DesplegarArreglo
+    DesplegarArreglo,
+    DesplegarObjetos
   } 
 }
 </script>
