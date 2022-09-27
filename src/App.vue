@@ -1,17 +1,20 @@
 <template>
   <div id="app">
     <MiComponente/>
+    <DesplegarArreglo/>
   </div>
 </template>
 
 <script>
 import MiComponente from './components/MiComponente.vue'
+import DesplegarArreglo from './components/DesplegarArreglo.vue'
 
 export default {
   name: 'App',
   components: {
-    MiComponente
-  }
+    MiComponente,
+    DesplegarArreglo
+  } 
 }
 </script>
 
