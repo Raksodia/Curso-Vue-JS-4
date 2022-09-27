@@ -1,9 +1,11 @@
 <template>
   <div id="app">
-    <MiComponente/>
-    <DesplegarArreglo/>
-    <DesplegarObjetos/>
-    <ComponenteCondicional/>
+      <div class="container">
+        <MiComponente/>
+        <DesplegarArreglo/>
+        <DesplegarObjetos/>
+        <ComponenteCondicional/>
+      </div>
   </div>
 </template>
 
@@ -26,12 +28,5 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
