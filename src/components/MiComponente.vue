@@ -3,6 +3,9 @@
         <h1>Mi Componente Funciona</h1>
         <h3>{{libro.titulo}}</h3>
         <h4>{{libro.autor}}</h4>
+        <br>
+        Formato HTML
+        <div v-html="libro.html_format"></div>
     </div>
 </template>
 
@@ -13,7 +16,8 @@ export default {
         return {
             libro : {
                 autor: "Autor",
-                titulo: "Titulo"
+                titulo: "Titulo",
+                html_format : "<p>Lorem Ipsum</b>"
             } 
         }
     }
