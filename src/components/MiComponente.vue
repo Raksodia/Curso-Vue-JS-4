@@ -1,7 +1,8 @@
 <template>
     <div class="MiComponente"> 
-        <h1>{{libro.titulo}}</h1>
-        <h2>{{libro.autor}}</h2>
+        <h1>Mi Componente Funciona</h1>
+        <h3>{{libro.titulo}}</h3>
+        <h4>{{libro.autor}}</h4>
     </div>
 </template>
 
