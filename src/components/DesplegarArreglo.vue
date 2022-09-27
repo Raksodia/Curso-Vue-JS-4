@@ -14,7 +14,7 @@
 
 <script>
 export default {
-    name: 'DesplegarArreglo',
+    name: 'DesplegarArreglo', 
     data (){
         return {
             colores : ["rojo","verde","amarillo"]
