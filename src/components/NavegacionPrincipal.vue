@@ -12,6 +12,11 @@
         <NavegacionItem titulo="Acerca"/>
         <NavegacionItem titulo="Tienda"/>
         <NavegacionItem titulo="Contacto"/>
+        
+        <NavegacionItem1 v-bind:navegacionData="{ titulo:'Inicio', url:'http://ejemplovuejs.com'}"/>
+        <NavegacionItem1 v-bind:navegacionData="{ titulo:'Acerca', url:'http://ejemplovuejs.com'}"/>
+        <NavegacionItem1 v-bind:navegacionData="{ titulo:'Tienda', url:'http://ejemplovuejs.com'}"/>
+        <NavegacionItem1 v-bind:navegacionData="{ titulo:'Contacto', url:'http://ejemplovuejs.com'}"/>
 
     </ul>
 </div>
@@ -21,11 +26,13 @@
 
 <script>
 import NavegacionItem from './NavegacionItem.vue'
+import NavegacionItem1 from './NavegacionItem1.vue'
 
 export default {
     name: 'NavegacionPrincipal',
     components: {
-        NavegacionItem
+        NavegacionItem,
+        NavegacionItem1
     },
     data (){ 
         return {
