@@ -1,10 +1,9 @@
 <template>
     <div class="texto"> 
         Texto Contenido Sitio
-        <br>
+        
         <OpcionButton/>
-        <OpcionButton/>
-        <OpcionButton/>
+        
     </div>
     
 </template>
