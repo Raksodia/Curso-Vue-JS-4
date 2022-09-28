@@ -1,7 +1,10 @@
 <template>
     <div class="texto"> 
-        <h3>Opcion 1 {{opcion}}</h3>
-        <button class="btn btn-primary" v-on:click="opcion='---CLICK---'">Opcion 1</button>
+        <h3>Opcion 1 {{opcion1}}</h3>
+        <button class="btn btn-primary" v-on:click="opcion1='---CLICK---'">Opcion 1</button>
+        <hr>
+        <h3>Opcion 2 {{opcion2}}</h3>
+        <button class="btn btn-primary" v-on:click="sumar">Opcion 2</button>
     </div>
 </template>
 
@@ -10,7 +13,13 @@ export default {
     name: 'OpcionButton',
     data (){
         return {
-             opcion:""
+             opcion1:"",
+             opcion2:""
+        }
+    },
+    methods:{
+        sumar: function(){
+            this.opcion2 = Math.floor(Math.random() * 100);
         }
     }
 }
@@ -19,7 +28,7 @@ export default {
 <style scoped>
 .texto {
     color:red;
-    font-family: 'Courier New', Courier, monospace;
+    
     font-size: 16px;
 }
 </style>
