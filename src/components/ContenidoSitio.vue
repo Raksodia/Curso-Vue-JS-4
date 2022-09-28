@@ -1,16 +1,26 @@
 <template>
     <div class="texto"> 
         Texto Contenido Sitio
+        <br>
+        <OpcionButton/>
+        <OpcionButton/>
+        <OpcionButton/>
     </div>
+    
 </template>
 
 <script>
+import OpcionButton from './OpcionButton.vue' 
+
 export default {
     name: 'ContenidoSitio',
     data (){
         return {
              
         }
+    },
+    components: {
+        OpcionButton
     }
 }
 </script>
