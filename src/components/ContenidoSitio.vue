@@ -4,6 +4,7 @@
         
         <OpcionButton/>
         <EntradaTexto/>
+        <TwoWayBinding/>
     </div>
     
 </template>
@@ -11,6 +12,7 @@
 <script>
 import OpcionButton from './OpcionButton.vue' 
 import EntradaTexto from './EntradaTexto.vue' 
+import TwoWayBinding from './TwoWayBinding.vue' 
 
 export default {
     name: 'ContenidoSitio',
@@ -21,7 +23,8 @@ export default {
     },
     components: {
         OpcionButton,
-        EntradaTexto
+        EntradaTexto,
+        TwoWayBinding
     }
 }
 </script>
