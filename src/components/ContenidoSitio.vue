@@ -5,6 +5,8 @@
         <OpcionButton/>
         <EntradaTexto/>
         <TwoWayBinding/>
+        <OthersEvents/>
+        
     </div>
     
 </template>
@@ -13,6 +15,7 @@
 import OpcionButton from './OpcionButton.vue' 
 import EntradaTexto from './EntradaTexto.vue' 
 import TwoWayBinding from './TwoWayBinding.vue' 
+import OthersEvents from './OthersEvents.vue' 
 
 export default {
     name: 'ContenidoSitio',
@@ -24,7 +27,8 @@ export default {
     components: {
         OpcionButton,
         EntradaTexto,
-        TwoWayBinding
+        TwoWayBinding,
+        OthersEvents
     }
 }
 </script>
