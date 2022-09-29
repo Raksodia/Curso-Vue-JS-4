@@ -2,6 +2,7 @@
     <div class="EntradaTexto"> 
         Entrada Texto 
         <input v-bind:value="EntradaTexto"/>
+        <button class="btn btn-primary" v-on:click="EntradaTexto='Nuevo Texto'">Cambiar</button>
     </div>
 </template>
 
