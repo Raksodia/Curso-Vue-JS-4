@@ -3,13 +3,14 @@
         Texto Contenido Sitio
         
         <OpcionButton/>
-        
+        <EntradaTexto/>
     </div>
     
 </template>
 
 <script>
 import OpcionButton from './OpcionButton.vue' 
+import EntradaTexto from './EntradaTexto.vue' 
 
 export default {
     name: 'ContenidoSitio',
@@ -19,7 +20,8 @@ export default {
         }
     },
     components: {
-        OpcionButton
+        OpcionButton,
+        EntradaTexto
     }
 }
 </script>
